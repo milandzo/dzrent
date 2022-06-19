@@ -1,0 +1,18 @@
+{
+    "name":"dzo-server",
+    "version": "0.0.1",
+    "author": "Milan Stanojevic dzo",
+    "description": "Strimerski torent klijent sa webui",
+    
+    "bin": {
+        "dzo-server": ".server/bin.js"
+    },
+    "scripts": {
+        "start": "node .server/bin.js",
+        "test": "grunt test"
+    },
+    "main": ".server/bin.js",
+    "repository": {
+        "type": "git"
+    }
+}
