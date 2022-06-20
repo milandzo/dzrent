@@ -1,0 +1,26 @@
+module.exports=function(config){
+    config.set({
+        basePath:'',
+        frameworks:['jasmine']
+    }),
+    files[
+        'app/bower_components/lodash/dist/lodash.js',
+        'app/bower_components/angular/angular.js',
+        'app/bower_components/angular-mocks/angular-mocks.js',
+        'app/bower_components/angular-resource/angular-resource.js',
+        'app/bower_components/angular-cookies/angular-cookies.js',
+        'app/bower_components/angular-sanitize/angular-sanitize.js',
+        'app/bower_components/angular-route/angular-route.js',
+        'app/bower_components/angular-socket-io/socket.js',
+        'app/bower_components/angular-socket-io/mock/socket-io.js',
+        'app/bower_components/angular-encode-uri/dist/angular-encode-uri.js',
+        'app/bower_components/ng-file-upload/angular-file-upload.js',
+        'app/scripts/*.js',
+        'app/scripts/**/*.js',
+        'test/spec/**/*.js'
+    ],
+    exclude[],
+    port:9876,
+    logLevel:config.LOG_INFO,
+    autoWatch:true
+}
